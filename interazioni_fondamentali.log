@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/W32TeX) (preloaded format=pdflatex 2019.10.22)  5 FEB 2022 15:54
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/W32TeX) (preloaded format=pdflatex 2019.10.22)  6 FEB 2022 10:21
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -271,21 +271,21 @@ e
 \tf@toc=\write3
 \openout3 = `interazioni_fondamentali.toc'.
 
- [1
+ (./mod2.tex [1
 
 
 ] [2
 
-] [3] [4] [5]
+] [3]) [4] [5]
 (./interazioni_fondamentali.aux) ) 
 Here is how much of TeX's memory you used:
- 3122 strings out of 492167
- 41348 string characters out of 6129158
+ 3125 strings out of 492167
+ 41370 string characters out of 6129158
  132308 words of memory out of 5000000
- 7452 multiletter control sequences out of 15000+600000
+ 7453 multiletter control sequences out of 15000+600000
  11238 words of font info for 40 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 46i,10n,37p,691b,179s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 46i,10n,37p,704b,179s stack positions out of 5000i,500n,10000p,200000b,80000s
 <c:/texlive/2019/texmf-dist/fonts/type1/publi
 c/amsfonts/cm/cmbx12.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/amsfont
 s/cm/cmex10.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi
@@ -298,7 +298,7 @@ ic/amsfonts/cm/cmsl12.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/amsfon
 ts/cm/cmsy10.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cms
 y6.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb><c:
 /texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on interazioni_fondamentali.pdf (7 pages, 138461 bytes).
+Output written on interazioni_fondamentali.pdf (7 pages, 138425 bytes).
 PDF statistics:
  80 PDF objects out of 1000 (max. 8388607)
  57 compressed objects within 1 object stream

@@ -1,0 +1,110 @@
+\chapter{Modulo 2}\label{cap : Mod2}
+
+\section{Richiami di cinematica relativistica}
+
+Le leggi di trasformazione da un sistema di riferimento (s.r) che si muove con velocit\'a $\beta$ rispetto ad un altro sistema, lungo l'asse z, in relatività ristretta, sono le trasformazioni di Lorentz : 
+\[
+\begin{cases}
+ct^{'}=\gamma (ct - \beta z) \\
+x^{'}= x \\
+y^{'}= y \\
+z^{'}= \gamma z - \beta \gamma c t
+\end{cases} 
+\]
+
+Per un generico \textit{boost} lungo una direzione qualunque specificata da $\beta = (\beta_{x}, \beta_{y}, \beta_{z})$ è più comodo utilizzare la seguente forma vettoriale :
+\[
+\begin{cases}
+\frac{E^{'}}{c} = \gamma (\frac{E}{c} - \vec{\beta} \cdot \vec{p}) \\
+\vec{p^{'}} =(\gamma - 1) \dfrac{( \vec{p} \cdot\vec{\beta}) \vec{\beta}}{\beta^{2}}  + \vec{p} - \beta \gamma \frac{E}{c}
+\end{cases}
+\]
+
+Ricordiamo anche come cambia il concetto di simultaneità e contrazione delle lunghezze. Se abbiamo due eventi separati in un certo 
+s.r con intervallo $\Delta t$, in un altro sistema di riferimento con velocità $\beta$ osserviamo $c \Delta t^{'} = \gamma c \Delta t - \beta \gamma \Delta z$. Quindi due eventi che avvengono simultaneamente in un sistema di riferimento, e sono separati spazialmente con distanza $\Delta z$, non sono simultanei in un altro sistema di riferimento che si muove con velocità $\beta$ rispetto al primo. 
+Per la contrazione, dati due eventi nello spazio tempo con coordinate lungo l'asse z pari a $Z_a , Z_b$ in $O^{'}$, in un altro sistema $O$ che si muove rispetto al primo con velocità $\beta$ si ha $Z_{a}^{'} = \gamma Z_a$ e $Z_b^{'} = \gamma Z_b$. Perciò le distanza sono $\Delta Z^{'} = \gamma \Delta Z$ ovvero $\Delta Z = \frac{L}{\gamma}$. A questo punto è utile introdurre le formule di addizione delle velocità, ricavabili a partire dalle trasformazioni lungo z viste prima. Sapendo che in un sistema $S^{'}$ una particella si muove lungo z con velocità $u^{'}$, in un sistema $S$ un osservatore vedrà la particella muoversi con velocità:
+
+\begin{equation}
+u_z = \frac{\Delta Z}{\Delta t } = \dfrac{\gamma(\Delta Z^{'} + \beta c \Delta t ^{'})}{\gamma(c \Delta t^{'} + \beta \gamma \Delta z^{'})}  = \dfrac{\frac{u^{'}}{c} + \beta}{1 +  \frac{u^{'}}{c}\beta}
+\end{equation}
+
+
+Un altro risultato da tenere a mente: per una particella con vita media $\tau$ e con velocità $\beta$, si può ottenere il tempo di volo nel sistema di laboratorio semplicemente come $ t = \gamma \tau$, mentre l'ampiezza di volo sarà pari ad $\Delta l = \gamma \beta c  \tau$. 
+
+\subsection{Quadrivettori}
+
+E\' opportuno adesso richiamare la notazione di Einstein. In relatività ristretta il concetti di spazio e tempo sono profondamente connessi, per questo si introduce il concetto di vettore a 4 componenti $x^{\mu}$, o quadrivettore, in cui $x^{\mu = 0}$ è la componente temporale, mentre $x^{\mu = 1,2,3}$ sono le componenti spaziali. Un evento è rappresentato, in un certo sistema di riferimento, dal vettore $x^{\mu} = (ct, x , y, z)$ . Questa notazione permette di riscrive in modo estremamente compatto un boost nella direzione z 
+
+\begin{equation}
+x^{\mu'} = \sum _{\nu = 0}^{\nu = 3} \Lambda^\mu_\nu x^\nu 
+\end{equation}
+Dove con $\Lambda^\mu_\nu$:
+\[
+\begin{bmatrix}
+\gamma & 0 & 0 & -\beta \gamma \\ 
+0 & 1 & 0 & 0 \\ 
+0 & 0 & 1 & 0 \\ 
+- \beta \gamma & 0 & 0 & \gamma
+\end{bmatrix} 
+\]
+In molti manuali, il simbolo di sommatoria è omesso, implicitamente si intende che si deve effettuare la somma sugli indici ripetuti (tranne nei casi in cui è specificato diversamente).
+Una trasformazione di Lorentz può essere interpretata come una matrice di rotazione, che agisce in un spazio a 4-dimensioni. Si definisce adesso l'invariante di lorentz, ovvero:
+
+\begin{equation*}
+x^2 = (x^0)^2 - (x^1)^2 + (x^2)^2 + (x^3)^2 = (x^0)^2 - \vec{x} \cdot \vec{x}
+\end{equation*}
+
+Si può dimostrare che tale quantità è invariante rispetto alle trasformazioni di Lorentz, cioè assume lo stesso valore in tutti i sistemi di riferimento.
+L'invariante di Lorentz si esprime in notazione di Einstein introducendo il tensore metrico $g_{\mu \nu}$ pari ad 
+\begin{equation} \label{metric}
+\begin{bmatrix}
+1 & 0 & 0 & 0 \\ 
+0 & -1 & 0 & 0 \\ 
+0 & 0 & -1 & 0 \\ 
+0 & 0 & 0 &-1
+\end{bmatrix}
+\end{equation} 
+Con questo è possibile esprimere l'invariante di lorentz come $x^2 = x^\mu g_{\mu \nu} x^\nu $. In questa forma, è quasi immediato dimostrare che l'invariante di lorentz assume lo stesso valore in qualsiasi sistema di riferimento, è infatti sufficiente dimostrare, partendo da $x'^2 =  x'^\mu g_{\mu \nu} x'^\nu = x^\sigma \Lambda^\mu _\sigma g_{\mu \nu} \Lambda^\nu _\eta x^\eta $ che sia vera la relazione:  $ \Lambda^\mu _\sigma g_{\mu \nu} \Lambda^\nu _\eta = g_{\sigma \eta}$ 
+
+\[
+\begin{bmatrix}
+\gamma & 0 & 0 & -\beta \gamma \\ 
+0 & 1 & 0 & 0 \\ 
+0 & 0 & 1 & 0 \\ 
+- \beta \gamma & 0 & 0 & \gamma
+\end{bmatrix} 
+\cdot 
+\begin{bmatrix}
+1 & 0 & 0 & 0 \\ 
+0 & -1 & 0 & 0 \\ 
+0 & 0 & -1 & 0 \\ 
+0 & 0 & 0 &-1
+\end{bmatrix}
+\cdot
+\begin{bmatrix}
+\gamma & 0 & 0 & -\beta \gamma \\ 
+0 & 1 & 0 & 0 \\ 
+0 & 0 & 1 & 0 \\ 
+- \beta \gamma & 0 & 0 & \gamma
+\end{bmatrix} 
+=
+\begin{bmatrix}
+1 & 0 & 0 & 0 \\ 
+0 & -1 & 0 & 0 \\ 
+0 & 0 & -1 & 0 \\ 
+0 & 0 & 0 &-1
+\end{bmatrix}
+\]
+
+La scrittura $ x^\mu g_{\mu \nu} x^\nu$ può essere rielaborata introducendo il concetto di indice covariante e indice controvariante: $ x^\mu g_{\mu \nu} x^\nu = x^\mu x_\mu$ 
+In questo caso abbiamo portato l'indice in alto $\nu$ in basso, dove $x_\nu = g_{\mu \nu} x^\nu$. Moltiplicando per  il tensore metrico è possibile alzare od abbassare gli indici, cioè trasformare un indice controvariante (come nel nostro caso) in un indice covariante e viceversa. In questi appunti la forma del tesore metrico è  quella scritta in equazione \ref{metric}, che è la metrica dello spazio-tempo di Minkowski. 
+
+\subsection{Quadrimpulso, invarianti cinematici}
+
+Oltre al quadrivettore $x^\mu$ che descrive la posizione nello spazio-tempo di una particella, si considera anche il quadrimpulso $P^\mu = (\frac{E}{c}, \vec{p})$. Le componenti del quadrimpulso sono legate dalla relazione:
+
+\begin{equation*}
+E = m \gamma c^2 \quad \vec{p} = m \gamma \beta c
+\end{equation*}
+
+Si ricava immediatamente che $ \frac{P^\mu}{m} = (\gamma c, \gamma \vec{v})$ che è la 4-velocità della particella. Alcune relazioni utili sono $\vec{\beta} = \frac{\vec{p} c}{E}$
