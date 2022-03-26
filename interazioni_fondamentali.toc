@@ -1,5 +1,6 @@
-\contentsline {section}{\numberline {0.1}Introduzione}{2}% 
-\contentsline {chapter}{Modulo 2}{iii}% 
-\contentsline {section}{\numberline {0.2}Richiami di cinematica relativistica}{iii}% 
-\contentsline {subsection}{\numberline {0.2.1}Quadrivettori}{iii}% 
-\contentsline {subsection}{\numberline {0.2.2}Quadrimpulso, invarianti cinematici}{iv}% 
+\contentsline {section}{\numberline {0.1}Introduzione}{2}%
+\contentsline {chapter}{Modulo 2}{iii}%
+\contentsline {section}{\numberline {0.2}Richiami di cinematica relativistica}{iii}%
+\contentsline {subsection}{\numberline {0.2.1}Quadrivettori}{iii}%
+\contentsline {subsection}{\numberline {0.2.2}Quadrimpulso, invarianti cinematici}{iv}%
+\contentsline {subsection}{\numberline {0.2.3}Deliri relativistici, precessione Thomas \leavevmode {\color {blue}*}}{v}%
