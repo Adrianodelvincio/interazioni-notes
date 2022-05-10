@@ -4,3 +4,10 @@
 \contentsline {subsection}{\numberline {0.2.1}Quadrivettori}{iii}%
 \contentsline {subsection}{\numberline {0.2.2}Quadrimpulso, invarianti cinematici}{iv}%
 \contentsline {subsection}{\numberline {0.2.3}Deliri relativistici, precessione Thomas \leavevmode {\color {blue}*}}{v}%
+\contentsline {paragraph}{Rotazione di Wigner}{v}%
+\contentsline {chapter}{Modulo 3}{vii}%
+\contentsline {chapter}{modulo 4}{ix}%
+\contentsline {chapter}{Modulo 5}{xi}%
+\contentsline {section}{\numberline {0.3}DEEP INELASTIC SCATTERING \leavevmode {\color {blue}*}}{xi}%
+\contentsline {subsection}{\numberline {0.3.1}SLAC-MIT experiment}{xi}%
+\contentsline {chapter}{modulo 6}{xiii}%
