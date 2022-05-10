@@ -10,4 +10,5 @@
 \contentsline {chapter}{Modulo 5}{xi}%
 \contentsline {section}{\numberline {0.3}DEEP INELASTIC SCATTERING \leavevmode {\color {blue}*}}{xi}%
 \contentsline {subsection}{\numberline {0.3.1}SLAC-MIT experiment}{xi}%
+\contentsline {paragraph}{Sezione d'urto Rutherford}{xi}%
 \contentsline {chapter}{modulo 6}{xiii}%
